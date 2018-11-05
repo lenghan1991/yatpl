@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "globals": {
+    "document": false
+  },
+  "rules": {
+    "arrow-parens": "off",
+    "no-console": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": ["off", { "ignore": ["children"]}],
+    "object-curly-newline": ["warn"],
+    "react/jsx-key": "off"
+  }
+}
